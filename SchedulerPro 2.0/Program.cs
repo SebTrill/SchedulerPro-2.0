@@ -23,16 +23,9 @@ namespace SchedulerPro_2._0
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-
-
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             SetProcessDpiAwareness((int)DpiAwareness.PerMonitorAware);
