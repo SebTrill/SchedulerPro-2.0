@@ -49,13 +49,15 @@ namespace SchedulerPro_2._0
             // 
             // uxOpenFile
             // 
+            this.uxOpenFile.BackColor = System.Drawing.Color.MediumPurple;
+            this.uxOpenFile.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.uxOpenFile.Font = new System.Drawing.Font("Snap ITC", 20.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxOpenFile.Location = new System.Drawing.Point(357, 1418);
             this.uxOpenFile.Name = "uxOpenFile";
             this.uxOpenFile.Size = new System.Drawing.Size(512, 157);
             this.uxOpenFile.TabIndex = 0;
             this.uxOpenFile.Text = "Open File";
-            this.uxOpenFile.UseVisualStyleBackColor = true;
+            this.uxOpenFile.UseVisualStyleBackColor = false;
             this.uxOpenFile.Click += new System.EventHandler(this.uxOpenFile_Click);
             // 
             // flowLayoutPanel2
@@ -65,7 +67,7 @@ namespace SchedulerPro_2._0
             this.flowLayoutPanel2.Controls.Add(this.label3);
             this.flowLayoutPanel2.Controls.Add(this.label4);
             this.flowLayoutPanel2.Controls.Add(this.label5);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(12, 12);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(12, 23);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(2810, 70);
             this.flowLayoutPanel2.TabIndex = 1;
@@ -141,6 +143,7 @@ namespace SchedulerPro_2._0
             // 
             // uxMondayText
             // 
+            this.uxMondayText.BackColor = System.Drawing.SystemColors.Menu;
             this.uxMondayText.Location = new System.Drawing.Point(12, 99);
             this.uxMondayText.Name = "uxMondayText";
             this.uxMondayText.Size = new System.Drawing.Size(555, 1131);
@@ -149,6 +152,7 @@ namespace SchedulerPro_2._0
             // 
             // uxWednesdayText
             // 
+            this.uxWednesdayText.BackColor = System.Drawing.SystemColors.Menu;
             this.uxWednesdayText.Location = new System.Drawing.Point(1134, 99);
             this.uxWednesdayText.Name = "uxWednesdayText";
             this.uxWednesdayText.Size = new System.Drawing.Size(555, 1131);
@@ -157,6 +161,7 @@ namespace SchedulerPro_2._0
             // 
             // uxThursdayText
             // 
+            this.uxThursdayText.BackColor = System.Drawing.SystemColors.Menu;
             this.uxThursdayText.Location = new System.Drawing.Point(1695, 99);
             this.uxThursdayText.Name = "uxThursdayText";
             this.uxThursdayText.Size = new System.Drawing.Size(555, 1131);
@@ -165,6 +170,7 @@ namespace SchedulerPro_2._0
             // 
             // uxFridayText
             // 
+            this.uxFridayText.BackColor = System.Drawing.SystemColors.Menu;
             this.uxFridayText.Location = new System.Drawing.Point(2256, 99);
             this.uxFridayText.Name = "uxFridayText";
             this.uxFridayText.Size = new System.Drawing.Size(555, 1131);
@@ -173,6 +179,7 @@ namespace SchedulerPro_2._0
             // 
             // uxTuesdayText
             // 
+            this.uxTuesdayText.BackColor = System.Drawing.SystemColors.Menu;
             this.uxTuesdayText.Location = new System.Drawing.Point(573, 99);
             this.uxTuesdayText.Name = "uxTuesdayText";
             this.uxTuesdayText.Size = new System.Drawing.Size(555, 1131);
