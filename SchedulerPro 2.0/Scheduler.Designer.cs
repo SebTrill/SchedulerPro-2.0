@@ -47,7 +47,7 @@ namespace SchedulerPro_2._0
             // 
             // uxOpenFile
             // 
-            this.uxOpenFile.Location = new System.Drawing.Point(208, 1266);
+            this.uxOpenFile.Location = new System.Drawing.Point(161, 1340);
             this.uxOpenFile.Name = "uxOpenFile";
             this.uxOpenFile.Size = new System.Drawing.Size(325, 67);
             this.uxOpenFile.TabIndex = 0;
@@ -134,43 +134,52 @@ namespace SchedulerPro_2._0
             // uxMondayText
             // 
             this.uxMondayText.Location = new System.Drawing.Point(12, 99);
+            this.uxMondayText.Multiline = true;
             this.uxMondayText.Name = "uxMondayText";
             this.uxMondayText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.uxMondayText.Size = new System.Drawing.Size(555, 38);
+            this.uxMondayText.Size = new System.Drawing.Size(555, 1131);
             this.uxMondayText.TabIndex = 5;
             this.uxMondayText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // uxTuesdayText
             // 
             this.uxTuesdayText.Location = new System.Drawing.Point(573, 99);
+            this.uxTuesdayText.Multiline = true;
             this.uxTuesdayText.Name = "uxTuesdayText";
             this.uxTuesdayText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.uxTuesdayText.Size = new System.Drawing.Size(555, 38);
+            this.uxTuesdayText.Size = new System.Drawing.Size(555, 1131);
             this.uxTuesdayText.TabIndex = 6;
+            this.uxTuesdayText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // uxWednesdayText
             // 
             this.uxWednesdayText.Location = new System.Drawing.Point(1134, 99);
+            this.uxWednesdayText.Multiline = true;
             this.uxWednesdayText.Name = "uxWednesdayText";
             this.uxWednesdayText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.uxWednesdayText.Size = new System.Drawing.Size(555, 38);
+            this.uxWednesdayText.Size = new System.Drawing.Size(555, 1131);
             this.uxWednesdayText.TabIndex = 7;
+            this.uxWednesdayText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // uxThursdayText
             // 
             this.uxThursdayText.Location = new System.Drawing.Point(1695, 99);
+            this.uxThursdayText.Multiline = true;
             this.uxThursdayText.Name = "uxThursdayText";
             this.uxThursdayText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.uxThursdayText.Size = new System.Drawing.Size(555, 38);
+            this.uxThursdayText.Size = new System.Drawing.Size(555, 1131);
             this.uxThursdayText.TabIndex = 8;
+            this.uxThursdayText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // uxFridayText
             // 
             this.uxFridayText.Location = new System.Drawing.Point(2256, 99);
+            this.uxFridayText.Multiline = true;
             this.uxFridayText.Name = "uxFridayText";
             this.uxFridayText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.uxFridayText.Size = new System.Drawing.Size(555, 38);
+            this.uxFridayText.Size = new System.Drawing.Size(555, 1131);
             this.uxFridayText.TabIndex = 9;
+            this.uxFridayText.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // uxUserInterface
             // 
