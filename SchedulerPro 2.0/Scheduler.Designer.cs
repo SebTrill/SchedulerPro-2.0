@@ -42,14 +42,17 @@ namespace SchedulerPro_2._0
             this.uxThursdayText = new System.Windows.Forms.RichTextBox();
             this.uxFridayText = new System.Windows.Forms.RichTextBox();
             this.uxTuesdayText = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // uxOpenFile
             // 
-            this.uxOpenFile.Location = new System.Drawing.Point(161, 1340);
+            this.uxOpenFile.Font = new System.Drawing.Font("Snap ITC", 20.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxOpenFile.Location = new System.Drawing.Point(357, 1418);
             this.uxOpenFile.Name = "uxOpenFile";
-            this.uxOpenFile.Size = new System.Drawing.Size(325, 67);
+            this.uxOpenFile.Size = new System.Drawing.Size(512, 157);
             this.uxOpenFile.TabIndex = 0;
             this.uxOpenFile.Text = "Open File";
             this.uxOpenFile.UseVisualStyleBackColor = true;
@@ -176,12 +179,22 @@ namespace SchedulerPro_2._0
             this.uxTuesdayText.TabIndex = 15;
             this.uxTuesdayText.Text = "";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SchedulerPro_2._0.Properties.Resources.logo__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(1279, 1280);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1263, 434);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
             // uxUserInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(2833, 1537);
+            this.ClientSize = new System.Drawing.Size(2833, 1757);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.uxTuesdayText);
             this.Controls.Add(this.uxFridayText);
             this.Controls.Add(this.uxThursdayText);
@@ -193,6 +206,7 @@ namespace SchedulerPro_2._0
             this.Text = "SchedulerPro";
             this.flowLayoutPanel2.ResumeLayout(false);
             this.flowLayoutPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -212,6 +226,7 @@ namespace SchedulerPro_2._0
         private System.Windows.Forms.RichTextBox uxThursdayText;
         private System.Windows.Forms.RichTextBox uxFridayText;
         private System.Windows.Forms.RichTextBox uxTuesdayText;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

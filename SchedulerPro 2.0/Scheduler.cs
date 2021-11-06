@@ -61,13 +61,20 @@ namespace SchedulerPro_2._0
                     if (day == "Monday" || day == "monday")
                     {
                         uxMondayText.Text = uxMondayText.Text + name + Environment.NewLine;
+                        int counter = 0;
 
                         for(int i = 0; i < start_times.Length; i++)
                         {
-                            uxMondayText.Text = uxMondayText.Text + start_times[i] + " - " + end_times[i] + Environment.NewLine;
+                            string[] time_day = start_times[i].Split('/');
+
+                            if(time_day[1] == "Monday" || time_day[1] == "monday")
+                            {
+                                uxMondayText.Text = uxMondayText.Text + time_day[0] + " - " + end_times[i] + Environment.NewLine;
+                                counter++;
+                            }
                         }
 
-                        uxMondayText.Text = uxMondayText.Text + "(Available for " + start_times.Length + " shifts)" + Environment.NewLine;
+                        uxMondayText.Text = uxMondayText.Text + "(Available for " + counter + " shifts)" + Environment.NewLine;
                         uxMondayText.Text = uxMondayText.Text + Environment.NewLine;
 
                         uxMondayText.SelectAll();
@@ -76,13 +83,20 @@ namespace SchedulerPro_2._0
                     else if (day == "Tuesday" || day == "tuesday")
                     {
                         uxTuesdayText.Text = uxTuesdayText.Text + name + Environment.NewLine;
+                        int counter = 0;
 
                         for (int i = 0; i < start_times.Length; i++)
                         {
-                            uxTuesdayText.Text = uxTuesdayText.Text + start_times[i] + " - " + end_times[i] + Environment.NewLine;
+                            string[] time_day = start_times[i].Split('/');
+
+                            if (time_day[1] == "Tuesday" || time_day[1] == "tuesday")
+                            {
+                                uxTuesdayText.Text = uxTuesdayText.Text + time_day[0] + " - " + end_times[i] + Environment.NewLine;
+                                counter++;
+                            }
                         }
 
-                        uxTuesdayText.Text = uxTuesdayText.Text + "(Available for " + start_times.Length + " shifts)" + Environment.NewLine;
+                        uxTuesdayText.Text = uxTuesdayText.Text + "(Available for " + counter + " shifts)" + Environment.NewLine;
                         uxTuesdayText.Text = uxTuesdayText.Text + Environment.NewLine;
 
                         uxTuesdayText.SelectAll();
@@ -91,13 +105,20 @@ namespace SchedulerPro_2._0
                     else if (day == "Wednesday" || day == "wednesday")
                     {
                         uxWednesdayText.Text = uxWednesdayText.Text + name + Environment.NewLine;
+                        int counter = 0;
 
                         for (int i = 0; i < start_times.Length; i++)
                         {
-                            uxWednesdayText.Text = uxWednesdayText.Text + start_times[i] + " - " + end_times[i] + Environment.NewLine;
+                            string[] time_day = start_times[i].Split('/');
+
+                            if (time_day[1] == "Wednesday" || time_day[1] == "wednesday")
+                            {
+                                uxWednesdayText.Text = uxWednesdayText.Text + time_day[0] + " - " + end_times[i] + Environment.NewLine;
+                                counter++;
+                            }
                         }
 
-                        uxWednesdayText.Text = uxWednesdayText.Text + "(Available for " + start_times.Length + " shifts)" + Environment.NewLine;
+                        uxWednesdayText.Text = uxWednesdayText.Text + "(Available for " + counter + " shifts)" + Environment.NewLine;
                         uxWednesdayText.Text = uxWednesdayText.Text + Environment.NewLine;
 
                         uxWednesdayText.SelectAll();
@@ -106,13 +127,20 @@ namespace SchedulerPro_2._0
                     else if (day == "Thursday" || day == "thursday")
                     {
                         uxThursdayText.Text = uxThursdayText.Text + name + Environment.NewLine;
+                        int counter = 0;
 
                         for (int i = 0; i < start_times.Length; i++)
                         {
-                            uxThursdayText.Text = uxThursdayText.Text + start_times[i] + " - " + end_times[i] + Environment.NewLine;
+                            string[] time_day = start_times[i].Split('/');
+
+                            if (time_day[1] == "Thursday" || time_day[1] == "thursday")
+                            {
+                                uxThursdayText.Text = uxThursdayText.Text + time_day[0] + " - " + end_times[i] + Environment.NewLine;
+                                counter++;
+                            }
                         }
 
-                        uxThursdayText.Text = uxThursdayText.Text + "(Available for " + start_times.Length + " shifts)" + Environment.NewLine;
+                        uxThursdayText.Text = uxThursdayText.Text + "(Available for " + counter + " shifts)" + Environment.NewLine;
                         uxThursdayText.Text = uxThursdayText.Text + Environment.NewLine;
 
                         uxThursdayText.SelectAll();
@@ -121,13 +149,20 @@ namespace SchedulerPro_2._0
                     else if (day == "Friday" || day == "friday")
                     {
                         uxFridayText.Text = uxFridayText.Text + name + Environment.NewLine;
+                        int counter = 0;
 
                         for (int i = 0; i < start_times.Length; i++)
                         {
-                            uxFridayText.Text = uxFridayText.Text + start_times[i] + " - " + end_times[i] + Environment.NewLine;
+                            string[] time_day = start_times[i].Split('/');
+
+                            if (time_day[1] == "Friday" || time_day[1] == "friday")
+                            {
+                                uxFridayText.Text = uxFridayText.Text + time_day[0] + " - " + end_times[i] + Environment.NewLine;
+                                counter++;
+                            }
                         }
 
-                        uxFridayText.Text = uxFridayText.Text + "(Available for " + start_times.Length + " shifts)" + Environment.NewLine;
+                        uxFridayText.Text = uxFridayText.Text + "(Available for " + counter + " shifts)" + Environment.NewLine;
                         uxFridayText.Text = uxFridayText.Text + Environment.NewLine;
 
                         uxFridayText.SelectAll();
