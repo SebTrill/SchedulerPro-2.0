@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
@@ -31,5 +32,49 @@ namespace SchedulerPro_2._0
             SetProcessDpiAwareness((int)DpiAwareness.PerMonitorAware);
             Application.Run(new uxUserInterface());
         }
+
+        /*
+        public static void ReadFile(string filename)
+        {
+            StreamReader sb = new StreamReader(filename);
+            string[][] return_values;
+            string[] data_values;
+
+            while (!sb.EndOfStream)
+            {
+                data_values = sb.ReadLine().Split(',');
+                string name = data_values[0];
+                string[] days = data_values[1].Split(';');
+
+                foreach (string day in days)
+                {
+                    if (day == "Monday" || day == "monday")
+                    {
+                        
+                    }
+                    else if (day == "Tuesday" || day == "tuesday")
+                    {
+                        // writes the name into the text box for the given day.
+                    }
+                    else if (day == "Wednesday" || day == "wednesday")
+                    {
+                        // writes the name into the text box for the given day.
+                    }
+                    else if (day == "Thursday" || day == "thursday")
+                    {
+                        // writes the name into the text box for the given day.
+                    }
+                    else if (day == "Friday" || day == "friday")
+                    {
+                        // writes the name into the text box for the given day.
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error in info. for employee: " + name);
+                    }
+                }
+            }
+        }
+        */
     }
 }
